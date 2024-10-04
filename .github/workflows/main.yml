@@ -4,7 +4,7 @@ on:
     push
 
 jobs : 
-    install:
+    build:
         runs-on: unbutu-lastest 
         steps: 
             - name: Checkout code
